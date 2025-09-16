@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees Register</title>
+</head>
+<body>
+
+    <h1>Employees Register</h1>
+
+    <form action="submit" method="post">
+        
+        <label for="empId">Employee ID:</label>
+        <input type="text" id="empId" name="empId" placeholder="Enter Employee ID"><br><br>
+
+        <label for="empName">Name:</label>
+        <input type="text" id="empName" name="empName" placeholder="Enter full name"><br><br>
+
+        <label for="empEmail">Email:</label>
+        <input type="email" id="empEmail" name="empEmail" placeholder="example@email.com"><br><br>
+
+        <label for="empAge">Age:</label>
+        <input type="number" id="empAge" name="empAge" placeholder="Enter age"><br><br>
+
+        <label for="empDob">Date of Birth:</label>
+        <input type="date" id="empDob" name="empDob"><br><br>
+
+        <label for="empAddress">Address:</label><br>
+        <textarea id="empAddress" name="empAddress" rows="3" cols="30" placeholder="Enter permanent address"></textarea><br><br>
+
+        <label for="empState">State:</label>
+        <input type="text" id="empState" name="empState" placeholder="Enter state"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="empGender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="empGender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="empGender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="empDept">Department:</label>
+        <input type="text" id="empDept" name="empDept" placeholder="Enter department"><br><br>
+
+        <label for="empSalary">Salary:</label>
+        <input type="number" id="empSalary" name="empSalary" placeholder="Enter salary in ₹"><br><br>
+
+        <label for="empExp">Experience (Years):</label>
+        <input type="number" id="empExp" name="empExp" min="0" placeholder="Enter experience in years"><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
